@@ -1,10 +1,10 @@
 == README
-<tt>
-  Prefix Verb URI Pattern                    Controller#Action
+
+  Prefix              Verb URI Pattern                  Controller#Action
        service_server GET /service/server(.:format)      service#server
          service_link GET /service/link(.:format)        service#link
        service_router GET /service/router(.:format)      service#router
   service_servidor_S1 GET /service/servidor/S1(.:format) service#server
     service_router_R1 GET /service/router/R1(.:format)   service#router
     service_enlace_E1 GET /service/enlace/E1(.:format)   service#link
-</tt>
+
