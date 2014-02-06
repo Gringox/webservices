@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Prefix Verb URI Pattern                    Controller#Action
+     service_server GET /service/server(.:format)      service#server
+       service_link GET /service/link(.:format)        service#link
+     service_router GET /service/router(.:format)      service#router
+service_servidor_S1 GET /service/servidor/S1(.:format) service#server
+  service_router_R1 GET /service/router/R1(.:format)   service#router
+  service_enlace_E1 GET /service/enlace/E1(.:format)   service#link
